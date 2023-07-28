@@ -21,7 +21,7 @@ app.get('/',(req, res) => {
 
 app.get('/:room',(req, res) => {
     // res.status(200).send('Hello World');
-    res.render('room' , {roomId: req.params.room});
+    res.render('index' , {roomId: req.params.room});
     
 })
 
